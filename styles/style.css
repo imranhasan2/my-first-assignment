@@ -1,0 +1,91 @@
+/* header section */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header related style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 620px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.header-item {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 150px;
+
+
+}
+
+
+#header-font {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 120px 300px 180pc 300px;
+}
+
+.offer-percente {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-right: 370px;
+    margin-bottom: 30px;
+
+}
+
+.offer-deal {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 390px;
+    margin-bottom: 10px;
+
+}
+
+.catagories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 370px
+}
+.new-year-img {
+    margin-top: 80px;
+    margin-left: 700px;
+}
