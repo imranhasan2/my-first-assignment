@@ -8,19 +8,18 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .container {
     background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    margin-left: 500px;
     width: 1320px;
     height: 620px;
-    margin-left: 500px;
     margin-top: 20px;
+
 }
-
-
-
-
 
 .header-item {
     color: #FFF;
@@ -35,22 +34,25 @@
 }
 
 
-#header-font {
+.header-font {
 
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 50px;
     font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 0;
+
 }
 
-.container h1 {
+.header-item h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 60px;
     font-weight: 900;
-    padding: 120px 300px 180pc 300px;
+    padding: 120px 300px 180px 300px;
 }
 
 .offer-percente {
@@ -85,7 +87,56 @@
     font-weight: 700;
     margin-right: 370px
 }
+
 .new-year-img {
     margin-top: 80px;
     margin-left: 700px;
+}
+
+/* main part style */
+.img-container {
+    background-image: url('../resources/Vectorrr.png');
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    padding-left: px;
+    margin-top: 200px;
+    margin-bottom: 5px;
+
+
+}
+
+.container-item {
+    padding-top: 20px;
+    padding-left: 600px;
+
+
+}
+
+.party {
+    color: #FFF;
+
+    font-family: Merriweather;
+    font-size: 80px;
+    font-weight: 900;
+    padding-left: 80px;
+}
+
+.container-description {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.button {
+    text-align: center;
+    outline: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 25px;
+    margin-left: 100px;
+     
 }
