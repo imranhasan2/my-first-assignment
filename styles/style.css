@@ -371,7 +371,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-.table-head{
+
+.table-head {
     padding-left: 2%;
 }
 
@@ -405,9 +406,119 @@
     font-weight: 400;
     line-height: 32px;
 }
-.row-img{
+
+.row-img {
     padding-left: 2%;
 }
-.row-imgg{
+
+.row-imgg {
     padding-left: 2%;
 }
+
+.subscribe {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.news-letter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dolor-two {
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    padding-left: 210px;
+}
+
+.sub-btn {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    border: none;
+    margin: 0;
+    color: #fff;
+}
+
+.user-btn {
+    width: 430px;
+    height: 100%;
+    border: 0;
+    border-color: white;
+    margin-left: 20px;
+}
+
+.user {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.footer-end {
+    width: 1300px;
+    height: 600px;
+    background-color: #070211;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.left-text h3 {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10%;
+}
+
+.left-text p{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 60%;
+
+}
+
+
+
