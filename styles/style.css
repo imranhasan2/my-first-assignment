@@ -154,7 +154,7 @@
 .gradient-part {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
-    height: 480px;
+    height: 600px;
     justify-content: center;
     margin: auto;
     margin-top: 120px;
@@ -273,9 +273,50 @@
     padding: 3%;
 }
 
+/* bonous point */
+
+
+.main-offer-section {
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-top: 200px;
+}
+
+
 .holiday-offer {
     text-align: center;
+
+
 }
+
+.box-open {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    margin-right: 50px;
+}
+
+.faltu-lady {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    margin-left: 60%;
+    transform: translate(0%, 50%);
+}
+
+.discount-offer {
+    position: absolute;
+    transform: translate(-50%, -110%);
+}
+
 
 .holiday-offer h4 {
     color: #070211;
@@ -285,6 +326,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-top: 0;
 }
 
 .holiday {
@@ -292,18 +334,19 @@
 
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     line-height: normal;
+
 }
 
 .holiday-offersale {
     color: #070211;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     line-height: normal;
 }
 
