@@ -298,7 +298,7 @@
 .box-open {
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
     margin-right: 50px;
 }
 
@@ -370,4 +370,44 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+.table-head{
+    padding-left: 2%;
+}
+
+.table-head h4 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.table-head h2 {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.table-head p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.row-img{
+    padding-left: 2%;
+}
+.row-imgg{
+    padding-left: 2%;
 }
